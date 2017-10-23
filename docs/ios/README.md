@@ -16,6 +16,6 @@ $ cordova create myApp
 $ cd myApp/
 $ cordova platform add ios
 
-# Remember to replace APP_ID and APP_NAME variables
-$ cordova plugin add cordova-plugin-facebook4 --save --variable APP_ID="123456789" --variable APP_NAME="myApplication"
+# Remember to replace FB_APP_ID and APP_NAME variables
+$ cordova plugin add cordova-plugin-facebook4 --save --variable FB_APP_ID="123456789" --variable APP_NAME="myApplication"
 ```
